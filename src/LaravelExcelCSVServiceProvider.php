@@ -22,9 +22,9 @@ class LaravelExcelCSVServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Bind your LaravelExcelCSV class to the service container
-        $this->app->bind('laravel-excel-csv', function () {
-            return new LaravelExcelCSV();
-        });
+           // Registering a singleton instance of LaravelExcelCSV
+         $this->app->singleton('laravel-excel-csv', function ($app) {
+        return new LaravelExcelCSV();
+    });
     }
 }
