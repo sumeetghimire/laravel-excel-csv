@@ -1,6 +1,6 @@
 <?php
 
-namespace SumeetGhimire\LaravelExcelCSV;
+namespace Sumeetghimire\LaravelExcelCSV;
 
 use Illuminate\Support\ServiceProvider;
 
