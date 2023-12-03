@@ -7,6 +7,7 @@
         "laravel/framework": "^8|^9|^10"
     },
     "require-dev": {
+        "phpunit/phpunit": "^9.0",
         "phpoffice/phpspreadsheet": "dev-master"
     },
     "license": "MIT",
@@ -20,11 +21,18 @@
             "name": "Sumeet Ghimire"
         }
     ],
+        "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/your-username/laravel-excel-csv"
+        }
+    ],
+
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "SumeetGhimire\\LaravelExcelCsv\\LaravelExcelCsvServiceProvider"
+                "SumeetGhimire\\LaravelExcelCsv\\LaravelExcelCSVServiceProvider"
             ]
         }
     }
