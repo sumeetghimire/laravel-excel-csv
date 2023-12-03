@@ -8,9 +8,8 @@ use Illuminate\Support\Facades\File;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-class LaravelExcelCSV
+class LaravelExcelImportExport
 {
-    // ... (previous code)
 
     /**
      * Import data from CSV file to the database.
